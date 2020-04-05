@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Dániel Bertalan</title>
+    <meta name="author" content="Dániel Bertalan" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <style>
+        html,body {
+            margin: 0;
+            height: 100%;
+        }
+
+        body {
+            text-align: center;
+            background-color: #f8f8f8;
+            color: #202020;
+        }
+
+        a { color: #202020; }
+
+        @media screen and (prefers-color-scheme: dark) {
+            body {
+                background-color: #202020;
+                color: #f8f8f8;
+            }
+            
+            a { color: #f8f8f8; }
+        }
+        
+        a:hover { color: #0080ff; }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        .wrapper { padding-bottom: 30px; }   
+     
+        #bio { font-family: Helvetica,sans-serif; }
+
+        h1 { 
+            font-size: 3.5rem;
+            margin: 16px;
+        }
+
+        .bio { 
+            font-size: 2rem; 
+            margin: 0.5em;
+        }
+           
+        #contact {
+            display: flex;
+            margin: 16px;
+            justify-content: center;
+        }
+
+        #contact i { 
+            margin: 10px;
+            font-size: 2.5rem; 
+            vertical-align: middle;
+            line-height: 2rem;
+        }
+
+        footer {
+            height: 30px;
+            margin-top: -30px;
+        }      
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="wrapper">
+            <section id="bio">
+                <h1> Dániel Bertalan</h1>
+                <p class="bio">High school student by day, programmer by night</p>
+                <p class="bio">I use <a href="https://archlinux.org" title="Arch" ><i class="fa fa-archlinux" aria-hidden="true"></i></a> btw!</p>
+            </section>
+
+            <section id="contact">
+                <a href="https://github.com/BertalanD" title="GitHub" class="icon"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="mailto:dani@danielbertalan.dev" title="email" class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a href="https://matrix.to/#/@bertalan_d:matrix.org" title="Matrix" class="icon"><i class="fa fa-matrix-org" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/bertalan_d" title="Twitter" class="icon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <a href="/publickey.txt">My PGP key</a> | &copy; Copyright 2020
+    </footer>
+</body>
+
+</html>
